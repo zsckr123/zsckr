@@ -1,4 +1,4 @@
-liczba_w_innym_systemie = [1,1,0,0]
+liczba_w_innym_systemie = [1,1,1,0,0]
 podstawa = int(input('Podaj podstawę'))
 liczba_10 = 0
 potega = 0
