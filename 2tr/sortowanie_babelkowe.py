@@ -6,8 +6,10 @@ def babelek(t):
 
 
 def sort_b(t):
+
     for j in range(len(t)):
         babelek(t)
+    
     return t
 
 lista =[100,100,-200,6,500]
