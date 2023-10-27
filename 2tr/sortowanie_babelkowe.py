@@ -1,3 +1,4 @@
+import time
 def babelek(t):
   for i in range(len(t)-1):
     if t[i] < t[i+1]:
@@ -6,10 +7,10 @@ def babelek(t):
 
 
 def sort_b(t):
-
+    #
     for j in range(len(t)):
         babelek(t)
-    
+    #
     return t
 
 lista =[100,100,-200,6,500]
