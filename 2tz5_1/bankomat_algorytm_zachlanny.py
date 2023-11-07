@@ -1,9 +1,11 @@
 def ile_moneta(kwota, banknot):
+    # kwota_oryg = kwota
     licznik = 0
     if kwota >= banknot:
         licznik = kwota // banknot
         # kwota = kwota - banknot * licznik
         kwota = kwota % banknot
+        # print(f'{banknot} mieści się {licznik} razy w {kwota_oryg}')
     return licznik, kwota
 
 def rozmien_kwota(kwota, lista):
@@ -17,7 +19,7 @@ def rozmien_kwota(kwota, lista):
         kwota_spr += int(el) * bankomat[el]
     if kwota_spr == kwota_oryg:
         return bankomat
-    return 'blaedna kwota'
-# print(ile_moneta(120,30))
+    return 'bledna kwota'
+# print(ile_moneta(230,100))
 # print(ile_moneta(120,30)[1])
-print(rozmien_kwota(1241,[100,50,20]))
+print(rozmien_kwota(1240,sorted([50,100,20,10], reverse=True)))
