@@ -1,0 +1,1 @@
+print('Witaj 1TZ na Python')
