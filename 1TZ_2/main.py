@@ -1,1 +1,2 @@
-print('Witaj 1TZ na Python')
+a = input('Podaj tekst')
+print(a)
