@@ -1,2 +1,2 @@
 a = input('Wpisz tekst z klawiatury:')
-print(a)
+print(f'To jest tekst z klawiatury:  {a}')
