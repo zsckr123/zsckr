@@ -1,1 +1,2 @@
-print('Witaj na zajęciach')
+a = input("Podaj tekst z klawiatury")
+print(a)
