@@ -1,1 +1,2 @@
-print("Witaj na lekcji z informatyki")
+a = input('Wpisz tekst z klawiatury:')
+print(a)
