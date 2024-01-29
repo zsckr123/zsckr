@@ -6,9 +6,8 @@ else:
 '''
 
 a = float(input('Podaj liczbe'))
-if a > 0:
-    print('Liczba dodatnia')
-elif a<0:
-    print('Liczba ujemna')
+if a % 2 == 0:
+    print('Liczba parzysta')
 else:
-    print('Liczba zero')
+    print('Liczba nieparzysta')
+
