@@ -11,3 +11,7 @@ c = a + b
 d = b + a
 print(c)
 print(d)
+
+''' Powielanie napisów'''
+print('Powielanie napisów')
+print(20 * 'x')
