@@ -1,7 +1,7 @@
 text = 'napis 2'
 print(text)
 '''' CTRL + /'''
-# print(text[1]) # pierwszy element
+# print(text[0]) # pierwszy element
 # print(text[-1]) # ostatni element
 # '''
 # Drukowanie od początku do elementu o indeksie 2 ale
