@@ -1,7 +1,7 @@
 def tekst():
     wyraz = input('Podaj dowolny ciąg znakowy')
     lista = []
-    for i in wyraz[::-1]:
+    for i in wyraz[::-2]:
         # print(ord(i))
         lista.append(ord(i))
     return lista
