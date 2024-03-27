@@ -11,7 +11,8 @@ SELECT * from Artist a ;
 # 27.03.2024;
 SELECT * FROM Album  INNER JOIN Artist  ON Album.ArtistId  = Artist.ArtistId  ;
 SELECT TITLE, Name  FROM Album  INNER JOIN Artist  ON Album.ArtistId  = Artist.ArtistId  ;
-SELECT  * from Customer c ;
-SELECT * from Invoice i ;
+SELECT  * from Customer  ;
+SELECT * from Invoice  ;
 SELECT * FROM Invoice  inner join Customer  on Invoice.CustomerId = Customer.CustomerId ;
+SELECT FirstName , LastName , Company , BillingAddress, BillingState FROM Invoice  inner join Customer  on Invoice.CustomerId = Customer.CustomerId ;
 
