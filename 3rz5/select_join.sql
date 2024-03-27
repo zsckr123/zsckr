@@ -15,4 +15,8 @@ SELECT  * from Customer  ;
 SELECT * from Invoice  ;
 SELECT * FROM Invoice  inner join Customer  on Invoice.CustomerId = Customer.CustomerId ;
 SELECT FirstName , LastName , Company , BillingAddress, BillingState FROM Invoice  inner join Customer  on Invoice.CustomerId = Customer.CustomerId ;
+SELECT * from Playlist p ;
+SELECT * from PlaylistTrack pt ;
+select * from Track t ;
 
+SELECT * from Track inner join Album on Track.AlbumId = Album.AlbumId ;
