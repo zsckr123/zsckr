@@ -20,3 +20,4 @@ SELECT * from PlaylistTrack pt ;
 select * from Track t ;
 
 SELECT * from Track inner join Album on Track.AlbumId = Album.AlbumId ;
+SELECT name, Title  from Track inner join Album on Track.AlbumId = Album.AlbumId ;
