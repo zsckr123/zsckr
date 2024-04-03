@@ -5,3 +5,5 @@ select * from Employee e ;
 select * from Artist a ;
 SELECT  *   from Album inner join Artist  on Album.ArtistId = Artist.ArtistId ;
 SELECT  Title , name  from Album inner join Artist  on Album.ArtistId = Artist.ArtistId ;
+select * from Track  ;
+SELECT Name, Title  from Track inner join Album on Track.AlbumId = Album.AlbumId ;
