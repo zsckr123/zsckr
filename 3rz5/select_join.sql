@@ -25,4 +25,6 @@ SELECT name, Title  from Track inner join Album on Track.AlbumId = Album.AlbumId
 SELECT LastName , FirstName , Address , City  from Employee order by City desc ;
 SELECT * from Customer c ;
 SELECT Customer.FirstName, Employee.Email  from Customer inner join Employee on Customer.SupportRepId = Employee.EmployeeId ;
-
+select * from Playlist p ;
+SELECT  * from PlaylistTrack pt ;
+SELECT * from PlaylistTrack inner join Playlist  on Playlist.PlaylistId = PlaylistTrack.PlaylistId ;
