@@ -28,3 +28,5 @@ SELECT Customer.FirstName, Employee.Email  from Customer inner join Employee on 
 select * from Playlist p ;
 SELECT  * from PlaylistTrack pt ;
 SELECT * from PlaylistTrack inner join Playlist  on Playlist.PlaylistId = PlaylistTrack.PlaylistId ;
+select * from Track t ;
+SELECT  * from Album inner join Track on album.AlbumId = track.AlbumId ;
