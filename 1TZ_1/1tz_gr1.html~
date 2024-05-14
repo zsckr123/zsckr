@@ -6,7 +6,15 @@
 	<title>1TŻ  grupa 1</title>
 </head>
 <body>
-
+<h2>Tabele</h2>
+<table border="1" bgcolor="yellow">
+<tr>
+	<td rowspan="2">1</td>	<td>2</td> <td>5</td>
+</tr>
+<tr>
+	<td>3</td>	<td colspan="2">4</td>
+</tr>
+</table>
 Tu <i><b>wpisuje </b></i>się treść 
 <font color="red">strony</font>
 <h1>Tytuł rozdziału</h1>
@@ -29,6 +37,7 @@ nazwa-wartość, rozdzielonych znakiem „=”, zawartych w znaczniku
    element poprzez samo ich zawarcie w znaczniku otwierającym[26] (np. ismap atrybut dla znacznika img[33]). </p>
    <p><a href="https://www.olx.pl/dom-ogrod/ogrod/">Link do strony olx</a></p>
    <p><img src="kwiaty.jpg" alt="" width="250"></p>
+   <p><a href="https://www.olx.pl/dom-ogrod/ogrod/"><img src="kwiaty.jpg" alt="" width="150"></a></p>
 
 </body>
 </html>
