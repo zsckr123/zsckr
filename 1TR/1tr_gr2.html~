@@ -6,7 +6,40 @@
 	<title>Tu wpisz tytuł strony</title>
 </head>
 <body>
+<h3>Tabele</h3>
+<table border="2" bgcolor="yellow">
+<tr>
+	<td rowspan="2">1</td>	<td>2</td> <td>5</td>
+</tr>
+<tr>
+	<td>3</td>	<td>4</td> 
+</tr>
+<tr><td colspan="3">7</td></tr>
 
+</table>
+
+<table border="2" >
+<tr>
+	<td colspan="2">Imię i nazwisko</td>	<td>Wiek</td> 
+</tr>
+<tr>
+	<td>Zielony</td>	<td>Piotr</td> <td>23</td> 
+	 
+</tr>
+<tr>
+	<td>Zielony</td>	<td>Piotr</td> <td>23</td> 
+	 
+</tr>
+<tr>
+	<td>Zielony</td>	<td>Piotr</td> <td>23</td> 
+	 
+</tr>
+<tr>
+	<td>Zielony</td>	<td>Piotr</td> <td>23</td> 
+	 
+</tr>
+
+</table>
 <p><h3>HTML</h3> <i>(ang. HyperText Markup Language, hipertekstowy 
 język znaczników)</i> – język znaczników stosowany do
  tworzenia dokumentów hipertekstowych.</p>
@@ -45,6 +78,6 @@ rozdzielonych znakiem „=”, zawartych w znaczniku otwierającym elementu, po 
   poprzez samo ich zawarcie w znaczniku otwierającym[26] (np. ismap atrybut dla znacznika img[33]). </p>
   <p> <a href="https://www.olx.pl/motoryzacja/samochody/">olx mototryzacja </a></p>
   <p><img src="papuga.jpg" alt="" width="120"></p>
-  p> <a href="https://www.olx.pl/motoryzacja/samochody/"><img src="papuga.jpg" alt="" width="220"> </a></p>
+  <p> <a href="https://www.olx.pl/motoryzacja/samochody/"><img src="papuga.jpg" alt="" width="220"> </a></p>
 </body>
 </html>
